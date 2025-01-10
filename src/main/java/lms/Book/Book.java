@@ -8,7 +8,6 @@ public class Book  {
     String ISBN; // International Standard Book Number
     int publicationYear;
 
-
     public Book(String bookTitle, String bookAuthor, String ISBN, int publicationYear) {
         this.bookTitle = bookTitle;
         this.bookAuthor = bookAuthor;

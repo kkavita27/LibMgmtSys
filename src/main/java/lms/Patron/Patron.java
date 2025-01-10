@@ -72,6 +72,14 @@ public class Patron {
     }
 
 
+    public void returnBook() {
+        if (bookBorrowedCount > 0) {
+            bookBorrowedCount--;
+        } else {
+            System.out.println("No books to return.");
+        }
+    }
+
 
 
 

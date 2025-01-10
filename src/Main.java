@@ -8,6 +8,7 @@ public class Main {
         Book b2 = new Book("Wings of Fire","APJ Abdul Kalam and Arun Tiwari","9788184022308",1999);
         LibraryInventory l1 = new LibraryInventory();
         l1.addBook(b1);
+        l1.addBook(b2);
         l1.searchABookByISBN("9788184022308");
 
     }

@@ -15,9 +15,15 @@ public class LibraryInventory {
 
     public void addBook(Book book)
     {
-        books.add(book);
+        if(!books.contains(book.ISBN))
+        {
+            books.add(book);
+            System.out.println(book+" Book got added.");
+        } else
+        {
+            System.out.println("Book already exists.");
+        }
 
-        System.out.println(book+" Book got added.");
     }
 
     public void removeABook(Book book)
